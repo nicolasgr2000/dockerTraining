@@ -1,7 +1,6 @@
 # dockerTraining
 
-- This command create a image and tags
-docker build -t infotraining .
+- This command create a image and tags - docker build -t infotraining:v0.0.1 .
 
 - This command run the container in HTTP port 8080
 docker run -p 8080:8080 infotraining
